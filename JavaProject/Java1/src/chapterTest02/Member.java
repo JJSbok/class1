@@ -1,4 +1,4 @@
-package chapter03;
+package chapterTest02;
 
 public class Member {
 
