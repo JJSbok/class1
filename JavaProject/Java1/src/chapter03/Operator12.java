@@ -20,6 +20,7 @@ public class Operator12 {
 	 if(gender == "남성" && age <19){
 		 System.out.println("입장하실수 없습니다. ");
 	 
+		scanner.close();
 	 }
 	 
 	}}
