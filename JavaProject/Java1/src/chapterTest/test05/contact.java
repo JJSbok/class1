@@ -75,7 +75,6 @@ public class contact {
 	}
 
 	public void showData() {
-		System.out
-				.println("연락처" +  "\n"+ name + "\n" + number + "\n" + email + "\n" + address + "\n" + birthday + "\n" + group);
+		System.out.println("연락처" +  "\n"+ name + "\n" + number + "\n" + email + "\n" + address + "\n" + birthday + "\n" + group);
 	}
 }
