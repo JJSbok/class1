@@ -1,4 +1,4 @@
-package chapterTest02;
+package chapterTest.test02;
 
 public class Person {
 
