@@ -23,15 +23,16 @@ public class contactMain {
 		String address = scanner.next();
 
 		System.out.printf("생일 : ");
-		int birthday = scanner.nextInt();
+		String birthday = scanner.next();
 
 		System.out.printf("그룹 : ");
 		String group = scanner.next();
 		
 		contact ct = new contact(name, number, email, address, birthday, group);
 		
+		ct.printData();
 		
-		ct.showData();
+		
 		scanner.close();
 		
 		

@@ -5,10 +5,10 @@ public class contact {
 	private String number;
 	private String email;
 	private String address;
-	private int birthday;
+	private String birthday;
 	private String group;
 
-	public contact(String name, String number, String email, String address, int birthday, String group) {
+	public contact(String name, String number, String email, String address, String birthday, String group) {
 		this.name = name;
 		this.number = number;
 		this.email = email;
@@ -58,11 +58,11 @@ public class contact {
 		this.address = address;
 	}
 
-	public int getBirthDay() {
+	public String getBirthDay() {
 		return birthday;
 	}
 
-	public void setBirthDay(int birthDay) {
+	public void setBirthDay(String birthDay) {
 		this.birthday = birthDay;
 	}
 
@@ -74,7 +74,18 @@ public class contact {
 		this.group = group;
 	}
 
-	public void showData() {
-		System.out.println("연락처" +  "\n"+ name + "\n" + number + "\n" + email + "\n" + address + "\n" + birthday + "\n" + group);
+	public void printSimpleData() {
+		System.out.println("이름 : " + name);
+		System.out.println("전화번호 : " + number);
 	}
+	public void printData() {
+		System.out.println("이름 : " + name);
+		System.out.println("전화번호 : " + number);
+		System.out.println("이메일 : " + email);
+		System.out.println("주소 : " + address);
+		System.out.println("생일 : " + birthday);
+		System.out.println("그룹 : " + group);
+		
+	}
+
 }
