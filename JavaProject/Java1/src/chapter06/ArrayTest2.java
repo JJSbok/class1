@@ -24,6 +24,7 @@ public class ArrayTest2 {
 		System.out.println();
 		}
 		
+		
 		System.out.println("배열 score3 ======");
 		for (int i=0; i<score3.length; i++) {
 			System.out.print(score[i] + ", ");
