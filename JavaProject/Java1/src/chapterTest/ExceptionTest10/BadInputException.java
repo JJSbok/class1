@@ -1,4 +1,4 @@
-package chapterTest.test10;
+package chapterTest.ExceptionTest10;
 
 public class BadInputException extends Exception {
 
