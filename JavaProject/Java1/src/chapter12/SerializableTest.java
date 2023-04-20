@@ -22,8 +22,6 @@ public class SerializableTest {
 			outputStream.writeObject(msg);
 		}catch(IOException e) {
 			e.printStackTrace();
-		}catch(ClassNotFoundException e){
-			e.printStackTrace();
 		}
 	}
 
